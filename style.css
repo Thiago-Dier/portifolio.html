@@ -107,6 +107,8 @@ h1 {
 }
 
 .projeto {
+    flex: 1;
+    min-width: 300px;   
     font-size: 25px;
     color: black;
     padding: 30px;
@@ -114,4 +116,14 @@ h1 {
 
 .texto {
     font-size: 15px;
+}
+
+.container-projetos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
 }
